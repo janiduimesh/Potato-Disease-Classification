@@ -1,0 +1,62 @@
+Collecting tensorflow-serving-api
+  Downloading tensorflow_serving_api-2.18.0-py2.py3-none-any.whl.metadata (1.8 kB)
+Requirement already satisfied: grpcio<2.0,>=1.24.3 in c:\users\gen\appdata\local\programs\python\python312\lib\site-packages (from tensorflow-serving-api) (1.66.0)
+Requirement already satisfied: protobuf!=4.21.0,!=4.21.1,!=4.21.2,!=4.21.3,!=4.21.4,!=4.21.5,<6.0.0dev,>=3.20.3 in c:\users\gen\appdata\local\programs\python\python312\lib\site-packages (from tensorflow-serving-api) (4.25.4)
+Collecting tensorflow<3,>=2.18.0 (from tensorflow-serving-api)
+  Using cached tensorflow-2.18.0-cp312-cp312-win_amd64.whl.metadata (3.3 kB)
+Collecting tensorflow-intel==2.18.0 (from tensorflow<3,>=2.18.0->tensorflow-serving-api)
+  Using cached tensorflow_intel-2.18.0-cp312-cp312-win_amd64.whl.metadata (4.9 kB)
+Requirement already satisfied: absl-py>=1.0.0 in c:\users\gen\appdata\local\programs\python\python312\lib\site-packages (from tensorflow-intel==2.18.0->tensorflow<3,>=2.18.0->tensorflow-serving-api) (2.1.0)
+Requirement already satisfied: astunparse>=1.6.0 in c:\users\gen\appdata\local\programs\python\python312\lib\site-packages (from tensorflow-intel==2.18.0->tensorflow<3,>=2.18.0->tensorflow-serving-api) (1.6.3)
+Requirement already satisfied: flatbuffers>=24.3.25 in c:\users\gen\appdata\local\programs\python\python312\lib\site-packages (from tensorflow-intel==2.18.0->tensorflow<3,>=2.18.0->tensorflow-serving-api) (24.3.25)
+Requirement already satisfied: gast!=0.5.0,!=0.5.1,!=0.5.2,>=0.2.1 in c:\users\gen\appdata\local\programs\python\python312\lib\site-packages (from tensorflow-intel==2.18.0->tensorflow<3,>=2.18.0->tensorflow-serving-api) (0.6.0)
+Requirement already satisfied: google-pasta>=0.1.1 in c:\users\gen\appdata\local\programs\python\python312\lib\site-packages (from tensorflow-intel==2.18.0->tensorflow<3,>=2.18.0->tensorflow-serving-api) (0.2.0)
+Requirement already satisfied: libclang>=13.0.0 in c:\users\gen\appdata\local\programs\python\python312\lib\site-packages (from tensorflow-intel==2.18.0->tensorflow<3,>=2.18.0->tensorflow-serving-api) (18.1.1)
+Requirement already satisfied: opt-einsum>=2.3.2 in c:\users\gen\appdata\local\programs\python\python312\lib\site-packages (from tensorflow-intel==2.18.0->tensorflow<3,>=2.18.0->tensorflow-serving-api) (3.3.0)
+Requirement already satisfied: packaging in c:\users\gen\appdata\roaming\python\python312\site-packages (from tensorflow-intel==2.18.0->tensorflow<3,>=2.18.0->tensorflow-serving-api) (24.1)
+Requirement already satisfied: requests<3,>=2.21.0 in c:\users\gen\appdata\local\programs\python\python312\lib\site-packages (from tensorflow-intel==2.18.0->tensorflow<3,>=2.18.0->tensorflow-serving-api) (2.32.3)
+Requirement already satisfied: setuptools in c:\users\gen\appdata\local\programs\python\python312\lib\site-packages (from tensorflow-intel==2.18.0->tensorflow<3,>=2.18.0->tensorflow-serving-api) (73.0.1)
+Requirement already satisfied: six>=1.12.0 in c:\users\gen\appdata\local\programs\python\python312\lib\site-packages (from tensorflow-intel==2.18.0->tensorflow<3,>=2.18.0->tensorflow-serving-api) (1.16.0)
+Requirement already satisfied: termcolor>=1.1.0 in c:\users\gen\appdata\local\programs\python\python312\lib\site-packages (from tensorflow-intel==2.18.0->tensorflow<3,>=2.18.0->tensorflow-serving-api) (2.4.0)
+Requirement already satisfied: typing-extensions>=3.6.6 in c:\users\gen\appdata\local\programs\python\python312\lib\site-packages (from tensorflow-intel==2.18.0->tensorflow<3,>=2.18.0->tensorflow-serving-api) (4.12.2)
+Requirement already satisfied: wrapt>=1.11.0 in c:\users\gen\appdata\local\programs\python\python312\lib\site-packages (from tensorflow-intel==2.18.0->tensorflow<3,>=2.18.0->tensorflow-serving-api) (1.16.0)
+Collecting tensorboard<2.19,>=2.18 (from tensorflow-intel==2.18.0->tensorflow<3,>=2.18.0->tensorflow-serving-api)
+  Using cached tensorboard-2.18.0-py3-none-any.whl.metadata (1.6 kB)
+Requirement already satisfied: keras>=3.5.0 in c:\users\gen\appdata\local\programs\python\python312\lib\site-packages (from tensorflow-intel==2.18.0->tensorflow<3,>=2.18.0->tensorflow-serving-api) (3.5.0)
+Requirement already satisfied: numpy<2.1.0,>=1.26.0 in c:\users\gen\appdata\local\programs\python\python312\lib\site-packages (from tensorflow-intel==2.18.0->tensorflow<3,>=2.18.0->tensorflow-serving-api) (1.26.4)
+Requirement already satisfied: h5py>=3.11.0 in c:\users\gen\appdata\local\programs\python\python312\lib\site-packages (from tensorflow-intel==2.18.0->tensorflow<3,>=2.18.0->tensorflow-serving-api) (3.11.0)
+Requirement already satisfied: ml-dtypes<0.5.0,>=0.4.0 in c:\users\gen\appdata\local\programs\python\python312\lib\site-packages (from tensorflow-intel==2.18.0->tensorflow<3,>=2.18.0->tensorflow-serving-api) (0.4.0)
+Requirement already satisfied: wheel<1.0,>=0.23.0 in c:\users\gen\appdata\local\programs\python\python312\lib\site-packages (from astunparse>=1.6.0->tensorflow-intel==2.18.0->tensorflow<3,>=2.18.0->tensorflow-serving-api) (0.44.0)
+Requirement already satisfied: rich in c:\users\gen\appdata\local\programs\python\python312\lib\site-packages (from keras>=3.5.0->tensorflow-intel==2.18.0->tensorflow<3,>=2.18.0->tensorflow-serving-api) (13.7.1)
+Requirement already satisfied: namex in c:\users\gen\appdata\local\programs\python\python312\lib\site-packages (from keras>=3.5.0->tensorflow-intel==2.18.0->tensorflow<3,>=2.18.0->tensorflow-serving-api) (0.0.8)
+Requirement already satisfied: optree in c:\users\gen\appdata\local\programs\python\python312\lib\site-packages (from keras>=3.5.0->tensorflow-intel==2.18.0->tensorflow<3,>=2.18.0->tensorflow-serving-api) (0.12.1)
+Requirement already satisfied: charset-normalizer<4,>=2 in c:\users\gen\appdata\local\programs\python\python312\lib\site-packages (from requests<3,>=2.21.0->tensorflow-intel==2.18.0->tensorflow<3,>=2.18.0->tensorflow-serving-api) (3.3.2)
+Requirement already satisfied: idna<4,>=2.5 in c:\users\gen\appdata\local\programs\python\python312\lib\site-packages (from requests<3,>=2.21.0->tensorflow-intel==2.18.0->tensorflow<3,>=2.18.0->tensorflow-serving-api) (3.7)
+Requirement already satisfied: urllib3<3,>=1.21.1 in c:\users\gen\appdata\local\programs\python\python312\lib\site-packages (from requests<3,>=2.21.0->tensorflow-intel==2.18.0->tensorflow<3,>=2.18.0->tensorflow-serving-api) (2.2.2)
+Requirement already satisfied: certifi>=2017.4.17 in c:\users\gen\appdata\local\programs\python\python312\lib\site-packages (from requests<3,>=2.21.0->tensorflow-intel==2.18.0->tensorflow<3,>=2.18.0->tensorflow-serving-api) (2024.7.4)
+Requirement already satisfied: markdown>=2.6.8 in c:\users\gen\appdata\local\programs\python\python312\lib\site-packages (from tensorboard<2.19,>=2.18->tensorflow-intel==2.18.0->tensorflow<3,>=2.18.0->tensorflow-serving-api) (3.7)
+Requirement already satisfied: tensorboard-data-server<0.8.0,>=0.7.0 in c:\users\gen\appdata\local\programs\python\python312\lib\site-packages (from tensorboard<2.19,>=2.18->tensorflow-intel==2.18.0->tensorflow<3,>=2.18.0->tensorflow-serving-api) (0.7.2)
+Requirement already satisfied: werkzeug>=1.0.1 in c:\users\gen\appdata\local\programs\python\python312\lib\site-packages (from tensorboard<2.19,>=2.18->tensorflow-intel==2.18.0->tensorflow<3,>=2.18.0->tensorflow-serving-api) (3.0.4)
+Requirement already satisfied: MarkupSafe>=2.1.1 in c:\users\gen\appdata\local\programs\python\python312\lib\site-packages (from werkzeug>=1.0.1->tensorboard<2.19,>=2.18->tensorflow-intel==2.18.0->tensorflow<3,>=2.18.0->tensorflow-serving-api) (2.1.5)
+Requirement already satisfied: markdown-it-py>=2.2.0 in c:\users\gen\appdata\local\programs\python\python312\lib\site-packages (from rich->keras>=3.5.0->tensorflow-intel==2.18.0->tensorflow<3,>=2.18.0->tensorflow-serving-api) (3.0.0)
+Requirement already satisfied: pygments<3.0.0,>=2.13.0 in c:\users\gen\appdata\roaming\python\python312\site-packages (from rich->keras>=3.5.0->tensorflow-intel==2.18.0->tensorflow<3,>=2.18.0->tensorflow-serving-api) (2.18.0)
+Requirement already satisfied: mdurl~=0.1 in c:\users\gen\appdata\local\programs\python\python312\lib\site-packages (from markdown-it-py>=2.2.0->rich->keras>=3.5.0->tensorflow-intel==2.18.0->tensorflow<3,>=2.18.0->tensorflow-serving-api) (0.1.2)
+Downloading tensorflow_serving_api-2.18.0-py2.py3-none-any.whl (26 kB)
+Using cached tensorflow-2.18.0-cp312-cp312-win_amd64.whl (7.5 kB)
+Using cached tensorflow_intel-2.18.0-cp312-cp312-win_amd64.whl (390.3 MB)
+Downloading tensorboard-2.18.0-py3-none-any.whl (5.5 MB)
+   ---------------------------------------- 5.5/5.5 MB 559.8 kB/s eta 0:00:00
+Installing collected packages: tensorboard, tensorflow-intel, tensorflow, tensorflow-serving-api
+  Attempting uninstall: tensorboard
+    Found existing installation: tensorboard 2.17.1
+    Uninstalling tensorboard-2.17.1:
+      Successfully uninstalled tensorboard-2.17.1
+  Attempting uninstall: tensorflow-intel
+    Found existing installation: tensorflow-intel 2.17.0
+    Uninstalling tensorflow-intel-2.17.0:
+      Successfully uninstalled tensorflow-intel-2.17.0
+  Attempting uninstall: tensorflow
+    Found existing installation: tensorflow 2.17.0
+    Uninstalling tensorflow-2.17.0:
+      Successfully uninstalled tensorflow-2.17.0
+Successfully installed tensorboard-2.18.0 tensorflow-2.18.0 tensorflow-intel-2.18.0 tensorflow-serving-api-2.18.0
