@@ -1,4 +1,4 @@
-# Leaf Disease Classification System (React + FastAPI + TensorFlow)
+#Potato Leaf Disease Classification System (React + FastAPI + TensorFlow)
 
 A deep learning-based system designed to classify leaf diseases using images of leaves. The system uses TensorFlow for model training and prediction, FastAPI for the backend API, and React for the user interface.
 
